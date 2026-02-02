@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HematoVision - Home</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f8ff;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background: darkred;
+            color: white;
+            padding: 25px;
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px gray;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>HematoVision</h1>
+    <p>Advanced Blood Cell Classification Using Transfer Learning</p>
+
+    <!-- ✅ Updated Navbar -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="project.html">Project</a>
+        <a href="predict.html">Predict</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<div class="content">
+    <h2>Welcome to HematoVision</h2>
+
+    <p>
+        HematoVision is an AI-based system that classifies blood cells using
+        Transfer Learning models such as ResNet, VGG16, and MobileNet.
+    </p>
+
+    <h2>Sample Blood Cell Images</h2>
+
+    <div class="gallery">
+<!-- Banner -->
+<img src="/static/images/banner.png" width="100%">
+
+<h2>Sample Blood Cell Images</h2>
+
+<div style="display:flex; justify-content:center; gap:20px;">
+    <div>
+        <img src="/static/images/rbc.png" width="250">
+        <p>Red Blood Cells</p>
+    </div>
+
+    <div>
+        <img src="/static/images/wbc.png" width="250">
+        <p>White Blood Cells</p>
+    </div>
+
+    <div>
+        <img src="/static/images/platelets.png" width="250">
+        <p>Platelets</p>
+    </div>
+</div>
+<footer>
+    <p>© 2026 HematoVision Project | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
